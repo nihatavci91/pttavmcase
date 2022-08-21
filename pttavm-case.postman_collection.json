@@ -1,0 +1,55 @@
+{
+	"info": {
+		"_postman_id": "39a22392-e31c-4af1-a0bb-7445cbbdbb8d",
+		"name": "pttavm-case",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "7386399"
+	},
+	"item": [
+		{
+			"name": "productadd",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "asdhadkaDASDAS9123",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					},
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": []
+				},
+				"url": {
+					"raw": "http://localhost:8888/pttavm-case/api",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8888",
+					"path": [
+						"pttavm-case",
+						"api"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

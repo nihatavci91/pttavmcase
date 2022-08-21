@@ -1,0 +1,15 @@
+{
+    "name": "nihatavci/pttavm-case",
+    "autoload": {
+        "psr-4": {
+            "Nihatavci\\PttavmCase\\": "src/"
+        },
+        "files": [
+            "src\\helpers.php"
+        ]
+    },
+    "require": {
+      "ext-simplexml": "*",
+      "ext-json": "*"
+    }
+}
